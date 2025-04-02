@@ -106,7 +106,7 @@
       ctx.fill();
 
       const padX = landingPadX - viewportX;
-      const padY = getTerrainYAt(landingPadX) - viewportY + 20;
+      const padY = getTerrainYAt(landingPadX) - viewportY - 20;
       ctx.fillStyle = "blue";
       ctx.fillRect(padX - landingPadWidth / 2, padY, landingPadWidth, 5);
 
